@@ -6,6 +6,7 @@ Enunciado
 ### En estos archivos se tienen:
 * Un paquete para las interfaces:
   > Una interface con los métodos para agregar objetos de tipo vehículo a una lista y para mostrar por consola dicha lista.
+  > 
   > Una interface con los métodos para la verificación de los datos ingresados por el usuario en su interacción con la aplicación, dependiendo de que tipo de dato se requiera en cada caso.
 
 * Un paquete para las clases:
