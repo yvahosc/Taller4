@@ -13,5 +13,6 @@ Enunciado
   1. Una clase para la creación de objetos de tipo numero y sus métodos get y set.
  
 * Un paquete para la clase principal:
-> Esta clase hace que a partir de la interacción con el usuario este pueda el proceso de registro de objetos de tipo numero y la creación de un vector con estos objetos a partir  de la interacción con el usuario y posteriormente imprimirlos cuando  los dos ultimos objetos de tipo numero del vector sean iguales.
+> Esta clase hace que a partir de la interacción con el usuario este pueda realizar el proceso de registro de objetos de tipo numero y la creación de un vector con estos objetos a partir  de la interacción con el usuario y posteriormente imprimirlos cuando  los dos ultimos objetos de tipo numero del vector sean iguales.
+> 
 ## Es posible ejecutar el código a traves de un IDE descargando el proyecto, extrayéndolo del archivo .ZIP, abriéndolo en el IDE y ejecutándolo o a través de CMD descargando el proyecto, extrayéndolo del archivo .ZIP, abriendo CMD, yendo a la carpeta dist del proyecto (utilizando el comando cd espacio la dirección de ubicación de la carpeta dist del proyecto) y ejecutando el comando java -jar (nombre del archivo .jar), que en este caso sería java -jar Ejercicio_6.jar
