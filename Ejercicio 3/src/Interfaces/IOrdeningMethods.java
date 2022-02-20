@@ -60,41 +60,44 @@ public interface IOrdeningMethods {
      * 
      * @param unorderedList Hace referencia a la lista de objetos de tipo 
      * numero que va a ser ordenada.
-     * @param low Hace referencia al indice menor que tenga la lista (cero).
-     * @param high Hase referencia al indice mayor que contenga la lista, 
+     * @param left Hace referencia al indice menor que tenga la lista (cero).
+     * @param right Hase referencia al indice mayor que contenga la lista, 
      * es decir, su tamaño menos uno.
      *      
      * @since [1.0.0]
      */
     public static void quickSort(
-            ArrayList<Numbers> unorderedList, int low, int high) 
+            ArrayList<Numbers> unorderedList, int left, int right) 
     {
-    
-        int i,j;
-        double temp, t;
-        
-        if(low > high){
-            return;
-        }
-        i = low;
-        j = high;
+        double pivot = unorderedList.get(left).getNumber();
+        int i = left;
+        int j = right;
+        double aux;       
        
-        temp = unorderedList.get(low).getNumber();
  
         while (i < j) {
-            while (temp <= unorderedList.get(j).getNumber() && i < j) {
-                j--;
-            }
-            while (temp >= unorderedList.get(i).getNumber()&&i<j) {
+            
+            while (unorderedList.get(i).getNumber() <= pivot && i < j) {
                 i++;
             }
+            while (unorderedList.get(j).getNumber() > pivot) {
+                j--;
+            }
             if (i < j) {
-                t = unorderedList.get(j).getNumber();
-                unorderedList.get(j).setNumber(unorderedList.get(i).getNumber());
-                unorderedList.get(j).setNumber(t);
+                aux = unorderedList.get(i).getNumber();
+                unorderedList.get(i).setNumber(unorderedList.get(j).getNumber());
+                unorderedList.get(j).setNumber(aux);
             }
         }
-        unorderedList.get(low).setNumber(unorderedList.get(i).getNumber());
-        unorderedList.get(i).setNumber(temp);
+        unorderedList.get(left).setNumber(unorderedList.get(j).getNumber());
+        unorderedList.get(j).setNumber(pivot);
+        
+        if(left <  j - 1){
+            quickSort(unorderedList, left, j - 1);
+        }
+        
+        if(j + 1 <  right){
+            quickSort(unorderedList, j + 1, right);
+        }
     }   
 }
