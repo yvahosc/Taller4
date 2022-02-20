@@ -11,6 +11,6 @@ Enunciado
   1. Una para la creación de los numeros y la lista de estos.
 
 * Un paquete para la clase principal:
-> Esta clase hace que a partir de la interacción con el usuario este pueda definir la cantidad de numeros que desea que hayan en la lista, a partir de esto se crea el array de numeros aleatorios y se pide al usuario elegir el método por el que quiere que estos sean ordenados y posteriormente se muestran por consola los numeros del array ordenados.
+> Esta clase hace que a partir de la interacción con el usuario este pueda definir la cantidad de numeros que desea que haya en la lista, a partir de esto se crea el array de numeros aleatorios y se pide al usuario elegir el método por el que quiere que estos sean ordenados y posteriormente se muestran por consola los numeros del array ordenados.
 > 
 ## Es posible ejecutar el código a traves de un IDE descargando el proyecto, extrayéndolo del archivo .ZIP, abriéndolo en el IDE y ejecutándolo o a través de CMD descargando el proyecto, extrayéndolo del archivo .ZIP, abriendo CMD, yendo a la carpeta dist del proyecto (utilizando el comando cd espacio la dirección de ubicación de la carpeta dist del proyecto) y ejecutando el comando java -jar (nombre del archivo .jar), que en este caso sería java -jar Ejercicio_3.jar
