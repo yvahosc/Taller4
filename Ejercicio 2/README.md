@@ -3,7 +3,7 @@
 Enunciado
 > ¿Es posible ejecutar un programa en java que contenga varias clases con métodos main? En caso positivo, ¿cómo se determina el punto de entrada a un programa?
 
-La respuesta a esta pregunta es que sí es posible ejecutar un programa con varios métodos Main en sus clases, el punto de entrada debe definirse en la construcción del programa; En Netbeans es posible hacerlo dando clic derecho sobre el proyecto y yendo a sus propiedades, luego en la categoria llamada Run aparece una opci+on llamada Main class, allí podemos elegir el método Main por medio del cual queremos que la aplicación de inicio y para finalizar damos ok; así cuando se ejecuté el programa este iniciará por el método Main elegido y no por otro.
+La respuesta a esta pregunta es que sí es posible ejecutar un programa con varios métodos Main en sus clases, el punto de entrada debe definirse en la construcción del programa; En Netbeans es posible hacerlo dando clic derecho sobre el proyecto y yendo a sus propiedades, luego en la categoria llamada Run aparece una opción llamada Main class, allí podemos elegir el método Main por medio del cual queremos que la aplicación de inicio y para finalizar damos ok; así cuando se ejecute el programa este iniciará por el método Main elegido y no por otro.
 
 Para ver un poco mejor esto se desarrollo una aplicación ejemplo en la que se muestra los integrantes de la selección nacional:
 
